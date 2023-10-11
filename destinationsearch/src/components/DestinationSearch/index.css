@@ -1,0 +1,61 @@
+.main-container {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-height: 1140px;
+  }
+  @media screen and(min-width:768px) {
+    .search-container {
+      align-items: flex-start;
+    }
+  }
+  .heading {
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #252627;
+    text-align: center;
+    margin: 48px 15px 32px;
+  }
+  @media screen and (min-width: 768px) {
+    .heading {
+      margin-top: 96px;
+    }
+  }
+  .search-input-container {
+    display: flex;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    margin-left: 15px;
+    padding: 8px 16px 16px 8px;
+  }
+  .search-input {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    border: none;
+    outline: none;
+  }
+  .search-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .destinations-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    padding-left: 0px;
+  }
+  @media screen and(min-width:768px) {
+    .destinations-list {
+      justify-content: flex-start;
+    }
+  }
